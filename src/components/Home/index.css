@@ -1,0 +1,225 @@
+.home-lg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-image: linear-gradient(to right, #fff, lightblue);
+    
+}
+@media screen and (max-width:868px){
+    .home-lg{
+        display: none;
+    }
+}
+.lg-pay-cont{
+    display: flex;
+    align-items: center;
+    border: 2px solid lightblue;
+    padding: 2px;
+    gap: 20px;
+    border-radius: 40px;
+}
+.pay-btn{
+    padding: 4px 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-family: Roboto;
+    border: none;
+    border-radius: 30px;
+}
+.pay-text{
+    color: #000;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin: 2px;
+}
+.card{
+    padding: 10px 0px;
+    border: 1px solid lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 28%;
+   
+}
+.card-cont{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.title-cont{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.card-title{
+    color: #000;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+.card-disc{
+    color: #000;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+.card-para{
+    color: #000;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.card-price{
+    color: #000;
+    font-size: 34px;
+    font-family: Roboto;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.sm-card-price{
+    color: #000;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 600;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.price-span{
+    color: #000;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+.card-blue-cont{
+    padding: 10px;
+    background-color: rgb(210, 239, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm-card-blue-cont{
+    padding: 10px;
+    background-color: rgb(210, 239, 229);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+    align-items: center;
+}
+.card-blue-text{
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin: 10px;
+}
+.sm-card-blue-text{
+    color: #000;
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin: 10px;
+}
+.list-cont{
+    padding-left: 20px;
+}
+.list-title{
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.check{
+    color: green;
+    margin-right: 10px;
+}
+.sm-list-title{
+    color: #000;
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.list{
+    color: #000;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.sm-list{
+    color: #000;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.card-btn{
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 7px 15px;
+    border: none;
+    width: 90%;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.sm-card{
+    display: flex;
+    flex-direction: column;
+
+}
+.sm-card-btn{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 30px;
+    width: 90%;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.small-home{
+    width: 100%;
+}
+
+@media screen and (min-width:869px){
+    .small-home{
+        display: none;
+    }
+}
+.sm-btn-cont{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.sm-btn{
+    background-color: transparent;
+    border: 1px solid #bfbfbf;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    width: 33%;
+}

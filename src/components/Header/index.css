@@ -1,0 +1,53 @@
+@media screen and (min-width:868px){
+.nav-mobile{
+    display: none;
+}}
+
+.logo{
+    width: 120px;
+}
+.free-trial{
+    color: #000;
+    font-family: Roboto;
+}
+@media screen and (max-width:868px){
+    .nav-lg{
+        display: none;
+    }
+}
+.lg-cont{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    gap: 370px;
+    border-bottom: 1px solid #322a2a;
+   
+}
+.lg-logo-cont{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.lg-login{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.free-btn{
+    background-color: #000;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 7px 15px;
+}
+.lg-text{
+   text-decoration: none;
+    color: #000;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px;
+}
